@@ -10,3 +10,4 @@
 2023-12-02 17:24:20,437 - [WARNING] - Forbidden (CSRF token from POST incorrect.): /news/i18n/setlang/ - log 
 2023-12-02 17:24:24,038 - [WARNING] - Forbidden (CSRF token from POST incorrect.): /news/i18n/setlang/ - log 
 2023-12-02 17:24:27,868 - [WARNING] - Forbidden (CSRF token from POST incorrect.): /news/i18n/setlang/ - log 
+2023-12-03 09:16:43,005 - [WARNING] - Forbidden (CSRF token from POST incorrect.): /news/i18n/setlang/ - log 

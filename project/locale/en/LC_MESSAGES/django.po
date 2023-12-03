@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-25 22:09+0300\n"
+"POT-Creation-Date: 2023-12-02 22:57+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,38 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+#: .\news\models.py:10
+msgid "Название"
+msgstr "Title"
+
+#: .\news\models.py:11
+msgid "Текст"
+msgstr "Text"
+
+#: .\news\models.py:12
+msgid "Время публикации"
+msgstr "Time of publication"
+
+#: .\news\models.py:13 .\news\models.py:37
+msgid "Категория"
+msgstr "Category"
+
+#: .\news\models.py:30
+msgid "Новость"
+msgstr "New"
+
+#: .\news\models.py:31
+msgid "Новости"
+msgstr "News"
+
+#: .\news\models.py:34
+msgid "category title"
+msgstr ""
+
+#: .\news\models.py:38
+msgid "Категории"
+msgstr "Categories"
+
 #: .\templates\account\email\base_message.txt:3
 #, python-format
 msgid "Привет от %(site_name)s!"
@@ -27,8 +59,7 @@ msgstr "Hello from %(site_name)s!"
 msgid ""
 "Спасибо за использование %(site_name)s!\n"
 "%(site_domain)s"
-msgstr ""
-"Thanks for using %(site_name)s!\n"
+msgstr "Thanks for using %(site_name)s!\n"
 "%(site_domain)s"
 
 #: .\templates\account\email\email_confirmation_message.txt:7
