@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-02 22:57+0300\n"
+"POT-Creation-Date: 2023-12-03 20:00+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,6 +49,14 @@ msgstr ""
 msgid "Категории"
 msgstr "Categories"
 
+#: .\news\templates\new\default.html:44
+msgid "Новостной сайт"
+msgstr "News site"
+
+#: .\news\templates\new\default.html:52
+msgid "Поиск"
+msgstr "Search"
+
 #: .\templates\account\email\base_message.txt:3
 #, python-format
 msgid "Привет от %(site_name)s!"
@@ -59,7 +67,8 @@ msgstr "Hello from %(site_name)s!"
 msgid ""
 "Спасибо за использование %(site_name)s!\n"
 "%(site_domain)s"
-msgstr "Thanks for using %(site_name)s!\n"
+msgstr ""
+"Thanks for using %(site_name)s!\n"
 "%(site_domain)s"
 
 #: .\templates\account\email\email_confirmation_message.txt:7
