@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-03 20:00+0300\n"
+"POT-Creation-Date: 2023-12-04 14:22+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -56,6 +56,18 @@ msgstr "News site"
 #: .\news\templates\new\default.html:52
 msgid "Поиск"
 msgstr "Search"
+
+#: .\news\templates\new\default.html:53
+msgid "создать новость"
+msgstr "create news "
+
+#: .\news\templates\new\index.html:7
+msgid "Главная страница:"
+msgstr "Main page:"
+
+#: .\news\templates\new\index.html:12
+msgid "Добро пожаловать на наш новостной Сайт!"
+msgstr "Welcome to our news Site!"
 
 #: .\templates\account\email\base_message.txt:3
 #, python-format
