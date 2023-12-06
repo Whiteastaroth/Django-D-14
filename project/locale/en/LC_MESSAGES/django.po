@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-06 18:15+0300\n"
+"POT-Creation-Date: 2023-12-06 18:39+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -93,6 +93,18 @@ msgstr "Deleting a post"
 #: .\news\templates\new\news_delete.html:15
 msgid "Удалить статью"
 msgstr "Delete an article"
+
+#: .\news\templates\new\news_id.html:11
+msgid "дата публикации"
+msgstr "date of publication"
+
+#: .\news\templates\new\news_id.html:13
+msgid "Удалить"
+msgstr "Delete"
+
+#: .\news\templates\new\news_id.html:14
+msgid "Редактировать"
+msgstr "Edit"
 
 #: .\templates\account\email\base_message.txt:3
 #, python-format
