@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-05 22:21+0300\n"
+"POT-Creation-Date: 2023-12-06 18:15+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,9 +49,13 @@ msgstr ""
 msgid "Категории"
 msgstr "Categories"
 
+#: .\news\templates\new\create.html:7
+msgid "Форма по добавлению публикации"
+msgstr "Form for adding a publication"
+
 #: .\news\templates\new\create.html:11
 msgid "Создание новости"
-msgstr "Creating a news "
+msgstr "Creating a news"
 
 #: .\news\templates\new\create.html:19
 msgid "Добавить публикацию"
@@ -81,6 +85,15 @@ msgstr "Main page:"
 msgid "Добро пожаловать на наш новостной Сайт!"
 msgstr "Welcome to our news Site!"
 
+#: .\news\templates\new\news_delete.html:7
+#: .\news\templates\new\news_delete.html:11
+msgid "Удаление публикации"
+msgstr "Deleting a post"
+
+#: .\news\templates\new\news_delete.html:15
+msgid "Удалить статью"
+msgstr "Delete an article"
+
 #: .\templates\account\email\base_message.txt:3
 #, python-format
 msgid "Привет от %(site_name)s!"
@@ -94,6 +107,7 @@ msgid ""
 msgstr ""
 "Thanks for using %(site_name)s!\n"
 "%(site_domain)s"
+
 
 #: .\templates\account\email\email_confirmation_message.txt:7
 #, python-format
