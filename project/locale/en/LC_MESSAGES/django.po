@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-04 14:22+0300\n"
+"POT-Creation-Date: 2023-12-05 22:21+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,6 +49,14 @@ msgstr ""
 msgid "Категории"
 msgstr "Categories"
 
+#: .\news\templates\new\create.html:11
+msgid "Создание новости"
+msgstr "Creating a news "
+
+#: .\news\templates\new\create.html:19
+msgid "Добавить публикацию"
+msgstr "Add a post"
+
 #: .\news\templates\new\default.html:44
 msgid "Новостной сайт"
 msgstr "News site"
@@ -59,7 +67,11 @@ msgstr "Search"
 
 #: .\news\templates\new\default.html:53
 msgid "создать новость"
-msgstr "create news "
+msgstr "create news"
+
+#: .\news\templates\new\detail.html:9
+msgid "дата загрузки"
+msgstr "upload date"
 
 #: .\news\templates\new\index.html:7
 msgid "Главная страница:"

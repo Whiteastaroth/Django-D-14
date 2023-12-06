@@ -1,8 +1,10 @@
 {% extends 'new/default.html' %}
 
+{% load i18n %}
+
 {% block title %}
 {% load filters %}
 <h3>{{ new.title|censor }}</h3>
 <p><i>{{ new.text|censor }}</i> </p>
-<p>дата загрузки <b>{{ new.date|date:"d.m.Y" }}</b></p>
+<p>{% trans  "дата загрузки" %} <b>{{ new.date|date:"d.m.Y" }}</b></p>
 {% endblock %}
