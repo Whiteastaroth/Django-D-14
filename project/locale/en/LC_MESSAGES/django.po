@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-06 19:33+0300\n"
+"POT-Creation-Date: 2023-12-09 21:27+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+#: .\news\filters.py:10 .\news\models.py:13 .\news\models.py:37
+msgid "Категория"
+msgstr "Category"
+
+#: .\news\filters.py:11
+msgid "Любой"
+msgstr "All"
+
+#: .\news\filters.py:18
+msgid "Дата"
+msgstr "Data"
+
 #: .\news\models.py:10
 msgid "Название"
 msgstr "Title"
@@ -28,10 +40,6 @@ msgstr "Text"
 #: .\news\models.py:12
 msgid "Время публикации"
 msgstr "Time of publication"
-
-#: .\news\models.py:13 .\news\models.py:37
-msgid "Категория"
-msgstr "Category"
 
 #: .\news\models.py:30
 msgid "Новость"
