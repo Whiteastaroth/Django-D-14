@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-06 18:39+0300\n"
+"POT-Creation-Date: 2023-12-06 19:33+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -106,6 +106,22 @@ msgstr "Delete"
 msgid "Редактировать"
 msgstr "Edit"
 
+#: .\news\templates\new\search.html:9 .\news\templates\new\search.html:13
+msgid "Поиск публикации"
+msgstr "Search for a publication"
+
+#: .\news\templates\new\search.html:19
+msgid "Найти"
+msgstr "Find"
+
+#: .\news\templates\new\search.html:27
+msgid "Читать дальше"
+msgstr "Read more"
+
+#: .\news\templates\new\search.html:31
+msgid "Новоcтей нет!"
+msgstr "No news!"
+
 #: .\templates\account\email\base_message.txt:3
 #, python-format
 msgid "Привет от %(site_name)s!"
@@ -119,7 +135,6 @@ msgid ""
 msgstr ""
 "Thanks for using %(site_name)s!\n"
 "%(site_domain)s"
-
 
 #: .\templates\account\email\email_confirmation_message.txt:7
 #, python-format
