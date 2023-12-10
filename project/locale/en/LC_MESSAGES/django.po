@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-10 00:48+0300\n"
+"POT-Creation-Date: 2023-12-10 14:27+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-#: .\news\filters.py:10 .\news\models.py:13 .\news\models.py:37
+#: .\news\filters.py:10 .\news\forms.py:22 .\news\models.py:13
+#: .\news\models.py:37
 msgid "Категория"
 msgstr "Category"
 
@@ -28,6 +29,26 @@ msgstr "All"
 #: .\news\filters.py:18
 msgid "Дата"
 msgstr "Data"
+
+#: .\news\forms.py:12
+msgid "вы не выбрали категорию"
+msgstr "you have not selected a category"
+
+#: .\news\forms.py:19
+msgid "Название публикации"
+msgstr "Title of the publication"
+
+#: .\news\forms.py:20
+msgid "Дата публикации"
+msgstr "Date of publication"
+
+#: .\news\forms.py:21
+msgid "Текст публикации"
+msgstr "The text of the publication"
+
+#: .\news\forms.py:31
+msgid "Описание не может быть менее 20 символов."
+msgstr "The description cannot be less than 20 characters long."
 
 #: .\news\models.py:10
 msgid "Название"
@@ -66,7 +87,7 @@ msgid "Кажется, у Вас нет доступа к данной стра�
 msgstr "It seems that You do not have access to this page..."
 
 #: .\news\templates\daily_post.html:11
-msgid "Здравствуй! Новые публикации за последнюю неделю!"
+msgid "Здравствуй! Новые публкации за последнюю неделю!"
 msgstr "Hello! New publications in the last week!"
 
 #: .\news\templates\new\create.html:7

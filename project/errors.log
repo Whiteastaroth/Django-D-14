@@ -1387,3 +1387,10 @@ Traceback (most recent call last):
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 django.db.utils.OperationalError: no such column: news_category.title_en_us
 2023-12-09 13:23:50,043 - [ERROR] - "GET /news/create/ HTTP/1.1" 500 265606 - C:\Users\Acer\PycharmProjects\PythonProjects\test_progect\venv\Lib\site-packages\django\core\servers\basehttp.py - None 
+2023-12-10 18:52:00,682 - [ERROR] - Internal Server Error: /news/news_list/ - C:\Users\Acer\PycharmProjects\PythonProjects\test_progect\venv\Lib\site-packages\django\utils\log.py - (<class 'TypeError'>, TypeError("'TimezoneMiddleware' object is not callable"), <traceback object at 0x0000022F38EDDB00>) 
+Traceback (most recent call last):
+  File "C:\Users\Acer\PycharmProjects\PythonProjects\test_progect\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'TimezoneMiddleware' object is not callable
+2023-12-10 18:52:00,685 - [ERROR] - "GET /news/news_list/ HTTP/1.1" 500 61216 - C:\Users\Acer\PycharmProjects\PythonProjects\test_progect\venv\Lib\site-packages\django\core\servers\basehttp.py - None 

@@ -10,6 +10,10 @@ from django.shortcuts import render
 from django.views.decorators.csrf import csrf_protect
 from .models import New, Category, Subscription
 
+from datetime import timezone
+from django.shortcuts import redirect
+import pytz  #  импортируем стандартный модуль для работы с часовыми поясами
+
 
 
 class NewList(ListView):
@@ -18,6 +22,16 @@ class NewList(ListView):
     ordering = ['-date']
     ontext_object_name = 'new'
     paginate_by = 10
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['current_time'] = timezone.localtime(timezone.now())
+        context['timezones'] = pytz.common_timezones  # добавляем в контекст все доступные часовые пояса
+        return context
+
+    def post(self, request):
+        request.session['django_timezone'] = request.POST['timezone']
+        return redirect('index')
 
 class SearchList(ListView):
     model = New

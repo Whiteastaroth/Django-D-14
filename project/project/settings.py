@@ -74,6 +74,8 @@ MIDDLEWARE = [
 
     'django.middleware.locale.LocaleMiddleware',
 
+    'news.middlewares.TimezoneMiddleware', #добавьте это промежуточное программное обеспечение!
+
 
 ]
 
