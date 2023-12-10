@@ -10,7 +10,7 @@ from django.shortcuts import render
 from django.views.decorators.csrf import csrf_protect
 from .models import New, Category, Subscription
 
-from datetime import timezone
+from django.utils import timezone
 from django.shortcuts import redirect
 import pytz  #  импортируем стандартный модуль для работы с часовыми поясами
 
