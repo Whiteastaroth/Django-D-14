@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-09 21:27+0300\n"
+"POT-Creation-Date: 2023-12-10 00:48+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -56,6 +56,18 @@ msgstr ""
 #: .\news\models.py:38
 msgid "Категории"
 msgstr "Categories"
+
+#: .\news\templates\403.html:6
+msgid "Ошибка 403"
+msgstr "Error 403"
+
+#: .\news\templates\403.html:9
+msgid "Кажется, у Вас нет доступа к данной странице..."
+msgstr "It seems that You do not have access to this page..."
+
+#: .\news\templates\daily_post.html:11
+msgid "Здравствуй! Новые публикации за последнюю неделю!"
+msgstr "Hello! New publications in the last week!"
 
 #: .\news\templates\new\create.html:7
 msgid "Форма по добавлению публикации"
@@ -144,6 +156,7 @@ msgstr ""
 "Thanks for using %(site_name)s!\n"
 "%(site_domain)s"
 
+
 #: .\templates\account\email\email_confirmation_message.txt:7
 #, python-format
 msgid ""
@@ -164,3 +177,15 @@ msgstr ""
 "Follow the link to confirm your registration. %(activate_url)s\n"
 "\n"
 "Have a good day!\n"
+
+#: .\templates\subscriptions.html:6
+msgid "Подписки"
+msgstr "Subscriptions"
+
+#: .\templates\subscriptions.html:18 .\templates\subscriptions.html:21
+msgid "Подписаться"
+msgstr "Subscribe"
+
+#: .\templates\subscriptions.html:19 .\templates\subscriptions.html:22
+msgid "Отписаться"
+msgstr "Unsubscribe"
